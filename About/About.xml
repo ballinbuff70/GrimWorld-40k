@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Warhammer 40k: Adeptus Astartes</name>
+	<author>HappyPurging</author>
+	<packageId>HappyPurging.Adeptus.Astartes</packageId>
+	<supportedVersions>
+      <li>1.4</li>
+   </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VFE.Pirates</packageId>
+      <displayName>Vanilla Factions Expanded - Pirates</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2723801948</steamWorkshopUrl>
+    </li>
+  </modDependencies>   
+	<description>V1.3
+Space Marine Warcaskets yo!
+	</description>
+	<loadAfter>
+		<li>OskarPotocki.VFE.Pirates</li>
+	</loadAfter>
+</ModMetaData>
