@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--__________ Headgear __________-->
+
+
+
+	<!--__________ Ultramarines __________-->
+
+ 	<!-- Mark VII Helmet --> 
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>ODZ_40k_AS_UM_MkVIIHelmet</defName>
+    <label>ultramarine mark VII helmet</label>
+    <description>Iconic blue helmet worn by ultramarine firstborn.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Ultramarines/Firstborn/Display/MkVIIHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>	 
+	  <drawSize>1.6</drawSize>	  
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.3</AimingDelayFactor>
+	  <MedicalTendSpeed>0.2</MedicalTendSpeed>	  
+    </equippedStatOffsets>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>	
+    <recipeMaker>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+    <apparel>
+	<useWornGraphicMask>true</useWornGraphicMask>	
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Ultramarines/Firstborn/Headgear/MkVIIHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>40kDeathKorps</li>
+        <li>40kDeathKorpsHelmet</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <!--__________ Armor ____________-->
+
+ <!--__________ Ultramarines ____________-->
+ 
+ 
+ 
+ <!-- Mark VII Brother  -->
+
+
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>ODZ_40k_AS_UM_MkVIIArmor</defName>
+    <label>ultramarine mark VII armor</label>
+    <description>Armor worn by the famed ultramarine firstborn.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Ultramarines/Firstborn/Display/Firstborn_Brother</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>	 	  
+      <drawSize>1.7</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>	
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>360</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.4</MoveSpeed>
+      <AimingDelayFactor>-0.02</AimingDelayFactor>
+	  <MedicalTendSpeed>0.5</MedicalTendSpeed>	  
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costList>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Uranium>10</Uranium>
+    </costList>
+    <apparel>
+<useWornGraphicMask>true</useWornGraphicMask>		
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Ultramarines/Firstborn/Shell/Firstborn_Brother</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>40kUltramarines</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+
+</Defs>
