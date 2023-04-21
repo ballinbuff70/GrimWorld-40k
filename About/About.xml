@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Warhammer 40k: Adeptus Astartes</name>
-	<author>HappyPurging</author>
-	<packageId>HappyPurging.Adeptus.Astartes</packageId>
+	<name>Warhammer 40k: Age of Darkness</name>
+	<author>HappyPurging, Odz, Clashgore</author>
+	<packageId>HappyPurging.AgeofDarkness</packageId>
 	<supportedVersions>
       <li>1.4</li>
    </supportedVersions>
@@ -13,7 +13,7 @@
       <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2723801948</steamWorkshopUrl>
     </li>
   </modDependencies>   
-	<description>V1.3
+	<description>V1.4
 Space Marine Warcaskets yo!
 	</description>
 	<loadAfter>
