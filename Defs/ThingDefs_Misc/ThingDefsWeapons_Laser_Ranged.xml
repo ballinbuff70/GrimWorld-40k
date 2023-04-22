@@ -3,6 +3,24 @@
   
   <!-- ====================== Plasma Gun  ===================== -->
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>VFEP_Bullet_PlasmaShot</defName>
+    <label>plasma shot</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+	  <armorPenetrationBase>1.0</armorPenetrationBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_PlasmaGun</defName>
     <label>Plasma Gun</label>
@@ -47,17 +65,14 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VWEL_Bullet_LaserRifle</defaultProjectile>
+        <defaultProjectile>VFEP_Bullet_PlasmaShot</defaultProjectile>
         <warmupTime>3.2</warmupTime>
        <range>46</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>HP_Plasma_Gun_Sound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>12</muzzleFlashScale>
-		<targetParams>
-			<canTargetLocations>true</canTargetLocations>
-		</targetParams>		
+        <muzzleFlashScale>12</muzzleFlashScale>	
       </li>
     </verbs>
     <tools>
@@ -82,6 +97,24 @@
   </ThingDef>
 
   <!-- ====================== Melta Gun  ===================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>HP_Bullet_MeltaGun</defName>
+    <label>melta gun shot</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.8</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_MeltaGun</defName>
@@ -127,7 +160,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>VWEL_Bullet_LaserRifle</defaultProjectile>
+        <defaultProjectile>HP_Bullet_MeltaGun</defaultProjectile>
         <warmupTime>3.2</warmupTime>
        <range>46</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
