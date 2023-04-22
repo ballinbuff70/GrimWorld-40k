@@ -8,15 +8,14 @@
    </supportedVersions>
   <modDependencies>
     <li>
-      <packageId>OskarPotocki.VFE.Pirates</packageId>
-      <displayName>Vanilla Factions Expanded - Pirates</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2723801948</steamWorkshopUrl>
+      <packageId>VanillaExpanded.VWEL</packageId>
+      <displayName>Vanilla Weapons Expanded - Laser</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844</steamWorkshopUrl>
     </li>
   </modDependencies>   
-	<description>V1.4
-Space Marine Warcaskets yo!
+	<description>Space Marines, attack!!
 	</description>
 	<loadAfter>
-		<li>OskarPotocki.VFE.Pirates</li>
+		<li>VanillaExpanded.VWEL</li>
 	</loadAfter>
 </ModMetaData>
