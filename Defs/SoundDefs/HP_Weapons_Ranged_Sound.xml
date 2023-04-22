@@ -10,7 +10,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Weapons/Shoutgun_fire_Bolt_rifle_single_bolt_sound</clipFolderPath>
           </li>
         </grains>      
@@ -27,7 +27,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Weapons/Plasma_shot</clipFolderPath>
           </li>
         </grains>      
@@ -44,7 +44,7 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Clip">
             <clipFolderPath>Weapons/Melta_gun</clipFolderPath>
           </li>
         </grains>      
