@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>40</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>50</speed>
     </projectile>
@@ -21,7 +21,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Bolter_Gun_Bolter</defName>
     <label>Astartes Bolter</label>
-    <description>PLACEHOLDER</description>
+    <description>The Boltgun, also commonly referred to as the Bolter, is the standard weapon of the Adeptus Astartes and Adepta Sororitas. A . 75 caliber weapon, the Boltgun fires a self-propelled explosive 'bolt' which explodes with devastating effect once it has penetrated its target, effectively blowing it apart from the inside.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/Boltgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -31,21 +31,21 @@
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
       <WorkToMake>38000</WorkToMake>
       <Mass>12</Mass>
-      <AccuracyTouch>0.32</AccuracyTouch>
-      <AccuracyShort>0.42</AccuracyShort>
-      <AccuracyMedium>0.68</AccuracyMedium>
-      <AccuracyLong>0.34</AccuracyLong>
-      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>180</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>400</Steel>
+      <ComponentIndustrial>25</ComponentIndustrial>
     </costList>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -56,7 +56,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_Bolter</defaultProjectile>
         <warmupTime>2</warmupTime>
-        <range>26.6</range>
+        <range>35</range>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
         <soundCast>HP_Bolt_Gun_Sound</soundCast>

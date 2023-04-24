@@ -16,7 +16,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>50</damageAmountBase>
       <stoppingPower>2</stoppingPower>
-	  <armorPenetrationBase>1.0</armorPenetrationBase>
+	  <armorPenetrationBase>0.7</armorPenetrationBase>
       <speed>120</speed>
     </projectile>
   </ThingDef>
@@ -24,7 +24,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_PlasmaGun</defName>
     <label>Plasma Gun</label>
-    <description>PLACEHOLDER</description>
+    <description>The Plasma Gun is a rifle-sized Plasma Weapon common to many of the armed forces of the Imperium of Man. It is classified as a special weapon and is carried by a variety of Imperial infantry, including Space Marines, Imperial Guardsmen and Storm Troopers.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
 	<drawSize>1.2</drawSize>
@@ -34,23 +34,23 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
-      <Mass>4</Mass>
-      <AccuracyTouch>0.35</AccuracyTouch>
-      <AccuracyShort>0.55</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.40</AccuracyLong>
-      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <Plasteel>90</Plasteel>
-	  <Steel>160</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
+      <Plasteel>180</Plasteel>
+	  <Steel>300</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <weaponTags>
       <li>SpacerGun</li>
@@ -66,8 +66,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VFEP_Bullet_PlasmaShot</defaultProjectile>
-        <warmupTime>3.2</warmupTime>
-       <range>46</range>
+        <warmupTime>4</warmupTime>
+       <range>40</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>HP_Plasma_Gun_Sound</soundCast>
@@ -109,9 +109,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
-	  <armorPenetrationBase>0.8</armorPenetrationBase>
+      <damageAmountBase>60</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>1.0</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -119,7 +119,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_MeltaGun</defName>
     <label>Melta Gun</label>
-    <description>PLACEHOLDER</description>
+    <description>The Meltagun, also called a "Fusion Gun," "Melter," or "Cooker," is a powerful, short-ranged anti-armour weapon that produces an intense, energetic beam of heat in the tens of thousands of degrees Centigrade.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
 	<drawSize>1.2</drawSize>
@@ -129,23 +129,23 @@
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
-      <Mass>4</Mass>
-      <AccuracyTouch>0.35</AccuracyTouch>
-      <AccuracyShort>0.55</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.40</AccuracyLong>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <Plasteel>90</Plasteel>
-	  <Steel>160</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
+      <Plasteel>180</Plasteel>
+	  <Steel>300</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <weaponTags>
       <li>SpacerGun</li>
@@ -161,8 +161,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_MeltaGun</defaultProjectile>
-        <warmupTime>3.2</warmupTime>
-       <range>46</range>
+        <warmupTime>2</warmupTime>
+       <range>16</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>HP_Melta_Gun_Sound</soundCast>
