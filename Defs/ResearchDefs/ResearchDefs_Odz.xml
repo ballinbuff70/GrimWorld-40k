@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_MkVII</defName>
+		<label>Mk VII power armor</label>
+		<description>Tbd.</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>PoweredArmor</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_MkX</defName>
+		<label>Mk X power armor</label>
+		<description>Tbd.</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>10000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Odz_Astartes_MkVII</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>

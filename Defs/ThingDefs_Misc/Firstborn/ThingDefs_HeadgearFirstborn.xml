@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--__________ Headgear __________-->
+	<!--__________ Ultramarines __________-->
+	<!-- Mark VII Helmet -->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>ODZ_40k_AS_UM_MkVIIHelmet</defName>
+		<label>ultramarine mark VII helmet</label>
+		<description>Special hermetic helmet with improved optics, target scanning system and life support. Primaris Marine version. Worn by most of Fristborn battle brothers.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Ultramarines/Firstborn/Display/MkVIIHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<!-- <stuffCategories> -->
+			<!-- <li>Metallic</li> -->
+		<!-- </stuffCategories> -->
+		<!-- <costStuffCount>55</costStuffCount> -->
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Odz_Astartes_MkVII</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Ultramarines/Firstborn/Headgear/MkVIIHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>40kDeathKorps</li>
+				<li>40kDeathKorpsHelmet</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+</Defs>

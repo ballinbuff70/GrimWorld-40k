@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--__________ Armor ____________-->
+	<!--__________ Ultramarines ____________-->
+	<!-- Mark VII Brother  -->
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>ODZ_40k_AS_UM_MkXArmor</defName>
+		<label>ultramarine mark X armor</label>
+		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>Odz_Astartes_MkX</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Ultramarines/Primaris/Display/Primaris_Brother</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.7</drawSize>
+		</graphicData>
+		<!-- <stuffCategories> -->
+			<!-- <li>Metallic</li> -->
+		<!-- </stuffCategories> -->
+		<!-- <costStuffCount>175</costStuffCount> -->
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>75</Uranium>
+		</costList>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Ultramarines/Primaris/Shell/Primaris_Brother</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>40kUltramarines</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+</Defs>
