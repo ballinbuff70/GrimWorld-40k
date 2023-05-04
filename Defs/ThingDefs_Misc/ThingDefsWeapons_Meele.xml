@@ -9,7 +9,7 @@
     <description>Chainswords are not subtle weapons, and wielding one is a statement in its own right: they are horrific tools of war, designed to bite, tear and eviscerate where more primitive blades merely cut and slice.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Weapons/Meele/ChainSwordStandard</texPath>
+      <texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
