@@ -33,8 +33,8 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
-      <Mass>12</Mass>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>5.5</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
@@ -128,8 +128,8 @@
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
-      <Mass>12</Mass>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>5.5</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.40</AccuracyMedium>

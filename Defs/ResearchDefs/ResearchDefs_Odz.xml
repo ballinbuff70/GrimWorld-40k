@@ -2,10 +2,10 @@
 <Defs>
 	<ResearchProjectDef>
 		<defName>Odz_Astartes_MkVII</defName>
-		<label>Mk VII power armor</label>
-		<description>Tbd.</description>
+		<label>MK VII Aquilla Armor</label>
+		<description>This version of basic power armour was also known as Imperator Armour. It is the contemporary variant of power armour most commonly used by the Space Marine Chapters of the Imperium. Mark VII armour was developed during the last stages of the Horus Heresy, and remains in use as the most common form of power armour more than 10,000 standard years later among the Firstborn Space Marines.</description>
 		<tab>Odz_ResearchTab_Adeptus</tab>
-		<baseCost>7500</baseCost>
+		<baseCost>12000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>PoweredArmor</li>
@@ -18,10 +18,10 @@
 	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>Odz_Astartes_MkX</defName>
-		<label>Mk X power armor</label>
-		<description>Tbd.</description>
+		<label>MK X Tacticus</label>
+		<description>The Mark X is the latest development in power armour design developed and forged on Mars itself. This latest pattern of power armour was developed for the long-awaited project commissioned by the Ultramarines Primarch Roboute Guilliman himself 10,000 standard years ago -- to craft a new breed of transhuman warriors.</description>
 		<tab>Odz_ResearchTab_Adeptus</tab>
-		<baseCost>10000</baseCost>
+		<baseCost>12000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>Odz_Astartes_MkVII</li>

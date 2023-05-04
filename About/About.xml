@@ -6,16 +6,6 @@
 	<supportedVersions>
       <li>1.4</li>
    </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>VanillaExpanded.VWEL</packageId>
-      <displayName>Vanilla Weapons Expanded - Laser</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844</steamWorkshopUrl>
-    </li>
-  </modDependencies>   
 	<description>Space Marines, attack!!
 	</description>
-	<loadAfter>
-		<li>VanillaExpanded.VWEL</li>
-	</loadAfter>
 </ModMetaData>

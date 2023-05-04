@@ -4,8 +4,8 @@
 	<!--__________ Ultramarines __________-->
 	<!-- Mark VII Helmet -->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>ODZ_40k_AS_UM_MkVIIHelmet</defName>
-		<label>ultramarine mark VII helmet</label>
+		<defName>ODZ_40k_AS_FB_UM_MkVIIHelmet</defName>
+		<label>ultramarine mark VII helmet (firstborn)</label>
 		<description>Special hermetic helmet with improved optics, target scanning system and life support. Primaris Marine version. Worn by most of Fristborn battle brothers.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
