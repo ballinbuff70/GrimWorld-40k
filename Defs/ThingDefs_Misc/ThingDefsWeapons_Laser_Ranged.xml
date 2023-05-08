@@ -42,9 +42,9 @@
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>15</Crafting>
       </skillRequirements>
     </recipeMaker>
     <costList>
@@ -137,9 +137,9 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>Odz_Astartes_MeltaGuns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>15</Crafting>
       </skillRequirements>
     </recipeMaker>
     <costList>

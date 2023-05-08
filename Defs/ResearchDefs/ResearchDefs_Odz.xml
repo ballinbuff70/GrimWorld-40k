@@ -32,4 +32,68 @@
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_BoltGuns</defName>
+		<label>Bolt Guns</label>
+		<description>This research unlocks all of Astartes Bolt weapons like Boltguns, Heavy Boltguns ect.</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>12000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_PlasmaGuns</defName>
+		<label>Plasma Guns</label>
+		<description>This research unlocks all of Astartes Plasma weapons like Plasmagun, Plasma Incinerator ect.</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>12000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_MeltaGuns</defName>
+		<label>Flame Guns</label>
+		<description>This research unlocks all of Astartes Melta weapons like Melta, Multi Melta ect.</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>12000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Odz_Astartes_Melee</defName>
+		<label>Melee Weapons</label>
+		<description>This research unlocks all of Astartes Melee weapons like Chainsword, ChainAxe</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>12000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
 </Defs>

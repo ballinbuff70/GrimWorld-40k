@@ -29,14 +29,14 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>15</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
       <WorkToMake>38000</WorkToMake>
-      <Mass>12</Mass>
+      <Mass>5</Mass>
       <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.60</AccuracyMedium>

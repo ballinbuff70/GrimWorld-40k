@@ -19,15 +19,15 @@
       <li>IndustrialMeleeDecent</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>22000</WorkToMake>
       <Mass>2.85</Mass>
     </statBases>
     <relicChance>2</relicChance>
     <equippedAngleOffset>-65</equippedAngleOffset>
    <costList>
-      <Plasteel>20</Plasteel>
-	  <Steel>60</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+	  <Steel>100</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <tools>
       <li>
@@ -48,9 +48,9 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>Machining</researchPrerequisite>
+      <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>12</Crafting>
         </skillRequirements>
       <recipeUsers Inherit="False">
         <li>TableMachining</li>

@@ -5,7 +5,7 @@
 	<!-- Mark VII Brother  -->
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>ODZ_40k_AS_UM_MkVIIArmor</defName>
-		<label>ultramarine mark VII armor</label>
+		<label>Ultramarine MK VII Auilla Armor</label>
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -31,13 +31,13 @@
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>15</Mass>
-			<Flammability>0.4</Flammability>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>50</Insulation_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -49,7 +49,7 @@
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
 			<Plasteel>400</Plasteel>
-			<Steel>300</Steel>
+			<Steel>500</Steel>
 			<Uranium>75</Uranium>
 		</costList>
 		<apparel>
