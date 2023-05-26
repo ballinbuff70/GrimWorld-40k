@@ -48,7 +48,7 @@
       </li>
     </tools>
     <recipeMaker>
-	  <recipeUsers>
+	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>		
       <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>

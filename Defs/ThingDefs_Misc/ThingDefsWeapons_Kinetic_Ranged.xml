@@ -29,9 +29,9 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-	  <recipeUsers>
+	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
-	  </recipeUsers>	
+	  </recipeUsers>
       <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
