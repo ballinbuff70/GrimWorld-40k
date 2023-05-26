@@ -2,15 +2,17 @@
 <Defs>
 	<!--__________ Armor ____________-->
 	<!--__________ Ultramarines ____________-->
-	<!-- Mark VII Brother  -->
+	<!-- Gravis Brother  -->
 	<ThingDef ParentName="ArmorMachineableBase">
-		<defName>ODZ_40k_AS_UM_MkVIIArmor</defName>
-		<label>Ultramarine MK VII Auilla Armor</label>
-		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
+		<defName>ODZ_40k_AS_UM_GravisArmor</defName>
+		<label>Ultramarine Gravis Armor</label>
+		<description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs.</description>
 		<techLevel>Spacer</techLevel>
+		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
+		<tickerType>Normal</tickerType>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>Odz_Astartes_MkVII_Aquilla</researchPrerequisite>
+			<researchPrerequisite>Odz_Astartes_MkX_Gravis</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -19,7 +21,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Ultramarines/Firstborn/Display/Firstborn_Brother</texPath>
+			<texPath>Things/Ultramarines/Gravis/Display/Gravis</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.7</drawSize>
@@ -27,27 +29,29 @@
 		<!-- <stuffCategories> -->
 			<!-- <li>Metallic</li> -->
 		<!-- </stuffCategories> -->
-		<!-- <costStuffCount>150</costStuffCount> -->
+		<!-- <costStuffCount>175</costStuffCount> -->
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>11</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>4</EquipDelay>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>13</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+			<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1.0</EnergyShieldEnergyMax>
 		</statBases>
-		<comps>
-          <li Class="CompProperties_CauseHediff_Apparel">
-            <hediff>TacticusHediff</hediff>
+			  <comps>
+	   <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>GravisHediff</hediff>
             <part>Torso</part>
           </li>
-        </comps>
+    </comps>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>0.1</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
@@ -68,12 +72,13 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Ultramarines/Firstborn/Shell/Firstborn_Brother</wornGraphicPath>
+			<wornGraphicPath>Things/Ultramarines/Gravis/Shell/GravisArmor</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<tags>
 				<li>40kUltramarines</li>
+				<li>PrestigeCombatGear</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

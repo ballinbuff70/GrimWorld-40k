@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>TossFragGrenade</defName>
+    <label>Toss Frag Grenades</label>
+    <description>Toss frag grenades against groups of enemy. The user will gain a maximum of 4 charges before the skill enters a 24 hour cooldown.</description>
+    <iconPath>Things/Misc/AbilityUI/GrenadeThrowUI</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+	<charges>4</charges>
+    <displayOrder>100</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20.9</range>
+	  <minRange>3.9</minRange>
+      <warmupTime>0.5</warmupTime>
+	  <forcedMissRadius>1.9</forcedMissRadius>
+      <soundCast>ThrowGrenade</soundCast>
+	  <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+		<canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>FragGrenade</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>FragGrenade</defName>
+    <label>Frag Grenade</label>
+    <graphicData>
+      <texPath>Things/Misc/Projectiles/Grenade_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+	  <explosionDelay>100</explosionDelay>
+	  <explosionRadius>3.9</explosionRadius>
+      <speed>12</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

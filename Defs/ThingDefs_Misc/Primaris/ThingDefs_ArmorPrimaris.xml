@@ -10,7 +10,7 @@
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>Odz_Astartes_MkX</researchPrerequisite>
+			<researchPrerequisite>Odz_Astartes_MkX_Tacticus</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -40,6 +40,12 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>TacticusHediff</hediff>
+            <part>Torso</part>
+          </li>
+        </comps>
 		<equippedStatOffsets>
 			<MoveSpeed>0.3</MoveSpeed>
 		</equippedStatOffsets>

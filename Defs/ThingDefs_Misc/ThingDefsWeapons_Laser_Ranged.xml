@@ -102,7 +102,7 @@
     <defName>HP_Bullet_MeltaGun</defName>
     <label>melta gun shot</label>
     <graphicData>
-      <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+      <texPath>Things/Projectiles/Melta_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
       <drawSize>1.5</drawSize>

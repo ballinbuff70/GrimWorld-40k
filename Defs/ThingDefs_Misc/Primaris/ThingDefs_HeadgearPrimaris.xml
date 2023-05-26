@@ -6,7 +6,7 @@
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>ODZ_40k_AS_UM_MkXHelmet</defName>
 		<label>Ultramarine MK X Helmet</label>
-		<description>Iconic blue helmet worn by primaris ultramarine.</description>
+		<description>Iconic blue helmet worn by Primaris Ultramarine.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Ultramarines/Primaris/Display/MkXHelmet</texPath>
@@ -33,6 +33,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -41,7 +42,7 @@
 			<Uranium>15</Uranium>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite Inherit="False">Odz_Astartes_MkX</researchPrerequisite>
+			<researchPrerequisite Inherit="False">Odz_Astartes_MkX_Tacticus</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -98,6 +99,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 			<SocialImpact>0.2</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
@@ -109,9 +111,9 @@
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
-			<effectWorking>Crafting</effectWorking>
-			<soundWorking>Recipe_Crafting</soundWorking>
-			<researchPrerequisite>Odz_Astartes_MkX</researchPrerequisite>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<researchPrerequisite>Odz_Astartes_MkX_Tacticus</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 			<Crafting>15</Crafting>
@@ -170,6 +172,7 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
 			<SocialImpact>0.5</SocialImpact>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -180,9 +183,9 @@
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
-			<effectWorking>Crafting</effectWorking>
-			<soundWorking>Recipe_Crafting</soundWorking>
-			<researchPrerequisite>Odz_Astartes_MkX</researchPrerequisite>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<researchPrerequisite>Odz_Astartes_MkX_Tacticus</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 			<Crafting>15</Crafting>

@@ -2,14 +2,14 @@
 <Defs>
 	<!--__________ Headgear __________-->
 	<!--__________ Ultramarines __________-->
-	<!-- Mark VII Helmet -->
+	<!-- Mark Gravis Helmet -->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>ODZ_40k_AS_FB_UM_MkVIIHelmet</defName>
-		<label>Ultramarine MK VII Helmet</label>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Primaris Marine version. Worn by most of Fristborn battle brothers.</description>
+		<defName>ODZ_40k_AS_FB_UM_GravisHelmet</defName>
+		<label>Ultramarine Gravis Helmet</label>
+		<description>Special hermetic helmet with improved optics, target scanning system and life support, heavy armor plating and stronger vox/augur cotigator. Worn by most of Primaris Capitains.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
-			<texPath>Things/Ultramarines/Firstborn/Display/MkVIIHelmet</texPath>
+			<texPath>Things/Ultramarines/Gravis/Display/GravisHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.6</drawSize>
@@ -20,28 +20,30 @@
 		<!-- </stuffCategories> -->
 		<!-- <costStuffCount>55</costStuffCount> -->
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>4</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+			<ArmorRating_Sharp>1.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<AimingDelayFactor>-0.5</AimingDelayFactor>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			<SocialImpact>0.75</SocialImpact>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>250</Plasteel>
 			<Steel>50</Steel>
 			<Uranium>15</Uranium>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>Odz_Astartes_MkVII_Aquilla</researchPrerequisite>
+			<researchPrerequisite>Odz_Astartes_MkX_Gravis</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -55,13 +57,13 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Ultramarines/Firstborn/Headgear/MkVIIHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Ultramarines/Gravis/Headgear/GravisHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>40kDeathKorps</li>
-				<li>40kDeathKorpsHelmet</li>
+				<li>40kUltramarines</li>
+				<li>PrestigeCombatGear</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
