@@ -41,7 +41,7 @@
       <li>Make_ComponentSpacer</li>
     </recipes>
     <graphicData>
-      <texPath>Things/Building/Production/ImperialFabricationBench</texPath>
+      <texPath>Things/Building/Production/ImperialFabricationBench/ImperialFabricationBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(7,4)</drawSize>
