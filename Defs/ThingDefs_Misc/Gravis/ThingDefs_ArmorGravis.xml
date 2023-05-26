@@ -17,7 +17,7 @@
 				<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers>
-				<li>FabricationBench</li>
+				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>

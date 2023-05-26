@@ -42,6 +42,9 @@
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
+	  <recipeUsers>
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>		
       <researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
@@ -137,6 +140,9 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
+	  <recipeUsers>
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>		
       <researchPrerequisite>Odz_Astartes_MeltaGuns</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>

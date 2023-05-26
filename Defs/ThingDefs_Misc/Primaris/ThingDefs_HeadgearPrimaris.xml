@@ -47,7 +47,7 @@
 				<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers>
-				<li>FabricationBench</li>
+				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<apparel>
@@ -119,7 +119,7 @@
 			<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>HP_ImperialFabricationBench</li>
       </recipeUsers>
     </recipeMaker>
 		<apparel>
@@ -191,7 +191,7 @@
 			<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-        <li>FabricationBench</li>
+        <li>HP_ImperialFabricationBench</li>
       </recipeUsers>
     </recipeMaker>
 		<apparel>

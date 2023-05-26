@@ -48,13 +48,13 @@
       </li>
     </tools>
     <recipeMaker>
+	  <recipeUsers>
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>		
       <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
         </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>TableMachining</li>
-      </recipeUsers>
       <displayPriority>410</displayPriority>
     </recipeMaker>
   </ThingDef>
