@@ -15,7 +15,7 @@
       <colorTwo>(147,144,134)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
+      <MaxHitPoints>5000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
@@ -38,7 +38,7 @@
       <colorTwo>(187,173,25)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
+      <MaxHitPoints>10000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
@@ -61,7 +61,7 @@
       <colorTwo>(70,70,70)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>4000</MaxHitPoints>
+      <MaxHitPoints>3600</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>

@@ -41,7 +41,14 @@
 			<Plasteel>250</Plasteel>
 			<Steel>50</Steel>
 			<Uranium>15</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
 		</costList>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>GravisHelmetHediff</hediff>
+            <part>Head</part>
+          </li>
+        </comps>
 		<recipeMaker>
 			<researchPrerequisite>Odz_Astartes_MkX_Gravis</researchPrerequisite>
 			<skillRequirements>

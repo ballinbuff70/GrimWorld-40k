@@ -6,7 +6,7 @@
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>ODZ_40k_AS_UM_GravisArmor</defName>
 		<label>Ultramarine Gravis Armor</label>
-		<description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs.</description>
+		<description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Capitains.</description>
 		<techLevel>Spacer</techLevel>
 		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
@@ -41,15 +41,9 @@
 			<Insulation_Cold>25</Insulation_Cold>
 			<Insulation_Heat>25</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
-			<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>1.0</EnergyShieldEnergyMax>
+			<EnergyShieldRechargeRate>1.5</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>5.0</EnergyShieldEnergyMax>
 		</statBases>
-			  <comps>
-	   <li Class="CompProperties_CauseHediff_Apparel">
-            <hediff>GravisHediff</hediff>
-            <part>Torso</part>
-          </li>
-    </comps>
 		<equippedStatOffsets>
 			<MoveSpeed>0.1</MoveSpeed>
 		</equippedStatOffsets>
@@ -61,6 +55,7 @@
 			<Plasteel>400</Plasteel>
 			<Steel>500</Steel>
 			<Uranium>75</Uranium>
+			<HP_Ceramite>75</HP_Ceramite>
 		</costList>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -84,5 +79,11 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+	  <comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>GravisHediff</hediff>
+            <part>Torso</part>
+          </li>
+      </comps>
 	</ThingDef>
 </Defs>

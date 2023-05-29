@@ -5,8 +5,8 @@
       <defName>TacticusHediff</defName>
       <hediffClass>HediffWithComps</hediffClass>
       <defaultLabelColor>(0, 0.71, 0.93)</defaultLabelColor>
-      <label>Tacticus Power Armor</label>
-      <description>A benefitial effect after wearing tacticus power armors.</description>
+      <label>Power Armor</label>
+      <description>A benefitial effect after wearing power armors.</description>
       <isBad>false</isBad>
 	  <comps>
         <li Class="HediffCompProperties_GiveAbility">
@@ -21,11 +21,15 @@
           <capMods>
             <li>
               <capacity>Consciousness</capacity>
-              <offset>0.15</offset>
+              <offset>1</offset>
             </li>			
 			<li>
               <capacity>Manipulation</capacity>
-              <offset>0.10</offset>
+              <offset>0.50</offset>
+            </li>
+			<li>
+              <capacity>Moving</capacity>
+              <offset>0.30</offset>
             </li>
           </capMods>
 		  <statOffsets>
@@ -33,24 +37,47 @@
         </li>
       </stages>
     </HediffDef>
-
-</Defs>
-
-<Defs>
-
-  <HediffDef>
+	
+	<HediffDef>
+      <defName>TacticusHelmetHediff</defName>
+      <hediffClass>HediffWithComps</hediffClass>
+      <defaultLabelColor>(0, 0.71, 0.93)</defaultLabelColor>
+      <label>Power Armor Helmet</label>
+      <description>A benefitial effect after wearing power armour helmets.</description>
+      <isBad>false</isBad>
+	  <comps>
+	    <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+      </comps>
+	  <stages>
+        <li>
+          <capMods>
+            <li>
+              <capacity>Sight</capacity>
+              <offset>1.0</offset>
+            </li>			
+			<li>
+              <capacity>Hearing</capacity>
+              <offset>1.0</offset>
+            </li>
+			<li>
+              <capacity>Talking</capacity>
+              <offset>1.2</offset>
+            </li>
+          </capMods>
+		  <statOffsets>
+		  </statOffsets>
+        </li>
+      </stages>
+    </HediffDef>
+	
+	<HediffDef>
       <defName>GravisHediff</defName>
       <hediffClass>HediffWithComps</hediffClass>
       <defaultLabelColor>(0, 0.71, 0.93)</defaultLabelColor>
-      <label>Tacticus Power Armor</label>
-      <description>A benefitial effect after wearing tacticus power armors.</description>
+      <label>Gravis Power Armor</label>
+      <description>A benefitial effect after wearing gravis power armors.</description>
       <isBad>false</isBad>
 	  <comps>
-        <li Class="HediffCompProperties_GiveAbility">
-          <abilityDefs>
-			<li>TossFragGrenade</li>
-          </abilityDefs>
-        </li>
 	    <li Class="HediffCompProperties_RemoveIfApparelDropped" />
       </comps>
 	  <stages>
@@ -58,11 +85,43 @@
           <capMods>
             <li>
               <capacity>Consciousness</capacity>
-              <offset>0.15</offset>
+              <offset>0.25</offset>
             </li>			
 			<li>
               <capacity>Manipulation</capacity>
-              <offset>0.10</offset>
+              <offset>0.25</offset>
+            </li>
+          </capMods>
+		  <statOffsets>
+		  </statOffsets>
+        </li>
+      </stages>
+    </HediffDef>
+	
+	<HediffDef>
+      <defName>GravisHelmetHediff</defName>
+      <hediffClass>HediffWithComps</hediffClass>
+      <defaultLabelColor>(0, 0.71, 0.93)</defaultLabelColor>
+      <label>Gravis Power Helmet</label>
+      <description>A benefitial effect after wearing gravis power helmets.</description>
+      <isBad>false</isBad>
+	  <comps>
+	    <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+      </comps>
+	  <stages>
+        <li>
+          <capMods>
+            <li>
+              <capacity>Sight</capacity>
+              <offset>1.5</offset>
+            </li>			
+			<li>
+              <capacity>Hearing</capacity>
+              <offset>1.4</offset>
+            </li>
+			<li>
+              <capacity>Talking</capacity>
+              <offset>1.3</offset>
             </li>
           </capMods>
 		  <statOffsets>

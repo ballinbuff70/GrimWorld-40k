@@ -31,6 +31,12 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>TacticusHelmetHediff</hediff>
+            <part>Head</part>
+          </li>
+        </comps>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
@@ -40,6 +46,7 @@
 			<Plasteel>100</Plasteel>
 			<Steel>50</Steel>
 			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite Inherit="False">Odz_Astartes_MkX_Tacticus</researchPrerequisite>
@@ -97,6 +104,12 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>TacticusHelmetHediff</hediff>
+            <part>Head</part>
+          </li>
+        </comps>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
@@ -169,6 +182,12 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>TacticusHelmetHediff</hediff>
+            <part>Head</part>
+          </li>
+        </comps>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.30</AimingDelayFactor>
 			<SocialImpact>0.5</SocialImpact>

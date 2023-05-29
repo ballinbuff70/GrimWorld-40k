@@ -57,6 +57,7 @@
 			<Plasteel>400</Plasteel>
 			<Steel>500</Steel>
 			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
 		</costList>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -74,6 +75,7 @@
 			</layers>
 			<tags>
 				<li>40kUltramarines</li>
+				<li>EVA</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

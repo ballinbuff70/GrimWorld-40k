@@ -4,13 +4,13 @@
   <ThingDef ParentName="BenchBase">
     <defName>HP_ImperialFabricationBench</defName>
     <label>Imperial Fabrication Workbench</label>
-    <description>A workbench equipped with advanced tools for producing technological for the Imperium.</description>
+    <description>A workbench equipped with advanced tools for producing technological armors/weapons for the Imperium.</description>
     <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
+      <MaxHitPoints>750</MaxHitPoints>
       <WorkToBuild>5000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -19,8 +19,10 @@
     <size>(5,2)</size>
     <costList>
       <Steel>200</Steel>
+	  <Plasteel>100</Plasteel>
       <ComponentIndustrial>12</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
+	  <HP_Ceramite>30</HP_Ceramite>
     </costList>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -75,6 +77,7 @@
     </placeWorkers>
     <researchPrerequisites>
       <li>Fabrication</li>
+	  <li>HP_ImperialFabricationBench</li>
     </researchPrerequisites>
   </ThingDef>
 

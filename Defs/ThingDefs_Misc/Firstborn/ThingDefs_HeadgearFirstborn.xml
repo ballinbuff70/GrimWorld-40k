@@ -31,6 +31,12 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<comps>
+          <li Class="CompProperties_CauseHediff_Apparel">
+            <hediff>TacticusHelmetHediff</hediff>
+            <part>Head</part>
+          </li>
+        </comps>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 		</equippedStatOffsets>
@@ -39,6 +45,7 @@
 			<Plasteel>100</Plasteel>
 			<Steel>50</Steel>
 			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>Odz_Astartes_MkVII_Aquilla</researchPrerequisite>
