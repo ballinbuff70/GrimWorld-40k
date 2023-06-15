@@ -36,7 +36,6 @@
     <deepLumpSizeRange>2~10</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
-    <possessionCount>40</possessionCount>
     <stuffProps>
 	  <stuffAdjective>Adamantic</stuffAdjective>
       <categories>
@@ -57,6 +56,7 @@
         <Flammability>0</Flammability>
         <Beauty>2</Beauty>
       </statFactors>
+	  <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <allowedArchonexusCount>1000</allowedArchonexusCount>
@@ -96,7 +96,6 @@
     <deepLumpSizeRange>1~4</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
-    <possessionCount>5</possessionCount>
     <stuffProps>
       <stuffAdjective>Auramitic</stuffAdjective>
       <categories>
@@ -120,6 +119,7 @@
         <WorkToBuild>5.0</WorkToBuild>
         <MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
       </statFactors>
+	  <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <allowedArchonexusCount>100</allowedArchonexusCount>
@@ -178,6 +178,7 @@
         <DoorOpenSpeed>0.75</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>1.10</MeleeWeapon_CooldownMultiplier>
       </statFactors>
+	  <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <allowedArchonexusCount>80</allowedArchonexusCount>
