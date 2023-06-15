@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--=============== Pure stuffs: Basics ====================-->
-
-
   <ThingDef ParentName="ResourceBase">
     <defName>HP_Adamantium</defName>
     <label>Adamantium</label>
