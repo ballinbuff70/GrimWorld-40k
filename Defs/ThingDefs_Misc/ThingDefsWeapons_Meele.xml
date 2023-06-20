@@ -13,7 +13,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Industrial</techLevel>	
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
       <li>IndustrialMeleeDecent</li>
@@ -24,9 +24,12 @@
     </statBases>
     <relicChance>2</relicChance>
     <equippedAngleOffset>-65</equippedAngleOffset>
+	<costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>	
    <costList>
       <Plasteel>40</Plasteel>
-	  <Steel>100</Steel>
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <tools>
